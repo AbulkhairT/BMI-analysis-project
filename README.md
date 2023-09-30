@@ -11,11 +11,19 @@ Weight (in kilograms): In the "Weight" column, the weights of the subjects are q
 BMI (Body Mass Index): Derived from the height and weight columns, the BMI column computes the Body Mass Index of each individual. The calculation utilizes the formula: BMI = (Weight in kg) / (Height in m^2). BMI is a vital numerical indicator used for categorizing individuals based on their weight relative to their height. It is expressed as a continuous variable.
 BmiClass: The "BmiClass" column categorizes individuals based on their calculated BMI values. The categories include "Obese Class 1," "Overweight," "Underweight," among others. These classifications are instrumental in health and weight analysis.
 
+Setup: 
+
+git clone https://github.com/your-username/BMI-Analysis-Project.git
+
+cd BMI-Analysis-Project
+
+Install required libraries 
+
+run the BMI-age-height visualization.py
 
 Technologies used: 
 Python:
   Libraries: Pandas, Matplotlib, Seaborn, Scikit-learn
-FastAPI
 
 Visualization of data: 
 
